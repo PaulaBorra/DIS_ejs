@@ -1,0 +1,41 @@
+[ {
+  "id" : "1",
+  "title" : "Inception",
+  "director" : "Christopher Nolan",
+  "year" : "2010",
+  "genre" : "Sci-Fi",
+  "cast" : [ "Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page" ],
+  "description" : "A skilled thief is given a chance at redemption if he can successfully perform an inception, planting an idea into a target's subconscious."
+}, {
+  "id" : "2",
+  "title" : "The Godfather",
+  "director" : "Francis Ford Coppola",
+  "year" : "1972",
+  "genre" : "Crime",
+  "cast" : [ "Marlon Brando", "Al Pacino", "James Caan" ],
+  "description" : "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+}, {
+  "id" : "3",
+  "title" : "The Dark Knight",
+  "director" : "Christopher Nolan",
+  "year" : "2008",
+  "genre" : "Action",
+  "cast" : [ "Christian Bale", "Heath Ledger", "Aaron Eckhart" ],
+  "description" : "When the Joker emerges as a new threat in Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+}, {
+  "id" : "4",
+  "title" : "Pulp Fiction",
+  "director" : "Quentin Tarantino",
+  "year" : "1994",
+  "genre" : "Crime",
+  "cast" : [ "John Travolta", "Uma Thurman", "Samuel L. Jackson" ],
+  "description" : "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+}, {
+  "id" : "5",
+  "title" : "Forrest Gump",
+  "director" : "Robert Zemeckis",
+  "year" : "1994",
+  "genre" : "Drama",
+  "cast" : [ "Tom Hanks", "Robin Wright", "Gary Sinise" ],
+  "description" : "The life journey of Forrest Gump, a man with a low IQ, who witnesses and unwittingly influences several historical events in the 20th century."
+} ]
