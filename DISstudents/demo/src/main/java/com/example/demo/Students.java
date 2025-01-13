@@ -15,6 +15,10 @@ public class Students {
         this.gender = gender;
         this.uuid = UUID.randomUUID().toString();
     }
+    
+    public Students() { 
+
+    }
 
     public String getFirstName() {
         return firstName;

@@ -88,4 +88,20 @@ public class StudentsControllerTest {
         assertEquals("Johnny", updated.getFirstName());
         assertEquals(19991231, updated.getDateOfBirth());
     }
+
+    @Test
+    public void testExportToCsv() {
+        // Crear y añadir vehículos
+        studentsController.addStudent(new Students("Paula", "Garcia", 20020909, "Female"));
+        studentsController.addStudent(new Students("Maria", "Gomez", 20040802, "Female"));
+
+        // Exportar a CSV
+        String response = studentsController.exportToCsv();
+
+        // Verificar respuesta
+        assertEquals("CSV exportado correctamente", response);
+
+        // No se verifica el archivo CSV directamente en este test unitario, 
+        // porque requiere pruebas de integración para validar la salida del archivo.
+    }
 }
